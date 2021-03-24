@@ -133,7 +133,6 @@ public class HistoryActivity extends AppCompatActivity {
                 String value = "-";
                 if(expectsInput) {
                     value = finalInput.getText().toString();
-                    // Do something with value!
                 }
                 if(callback != null){
                     callback.accept(value);
